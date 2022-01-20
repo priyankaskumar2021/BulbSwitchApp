@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+   
+}
+.count {
+    margin-bottom: 2rem;
+    text-align: center;
+    display: grid;
+    margin-left: 10rem;
+}
+.count h3 {
+    line-height: 8.6rem;
+    margin-right: 1rem;
+}
+.count h1 {
+    font-size:5em;
+    margin-top: 2rem;
+}
+.buttons button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 1em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+    margin-left: 5em;
+    margin-top: 30px;
+}
+.buttonl button {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 5em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+    background-color: gray;
+}
+.buttons button:hover{
+    
+    background-color: greenyellow;
+}
+.buttons button:focus{
+    outline: 0;
+}
